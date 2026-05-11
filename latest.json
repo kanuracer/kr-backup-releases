@@ -1,17 +1,17 @@
 {
-    "publishedAt":  "2026-05-11T21:01:40.5333391Z",
+    "publishedAt":  "2026-05-11T21:27:02.2030435Z",
     "portable":  {
-                     "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.12-win-x64-portable.zip",
-                     "name":  "KR-Backup-v0.1.12-win-x64-portable.zip",
-                     "sha256":  "67caf62bb471e583de5b15060c741bfff6107c85f5beeda1b4c5cf58990dccf4",
-                     "size":  70285771
+                     "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.13-win-x64-portable.zip",
+                     "name":  "KR-Backup-v0.1.13-win-x64-portable.zip",
+                     "sha256":  "79db0197509f443bee2a613148599a8f6671c29741260225da7f38f78de5779c",
+                     "size":  70286332
                  },
     "asset":  {
-                  "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.12-update-from-0.1.x.zip",
-                  "name":  "KR-Backup-v0.1.12-update-from-0.1.x.zip",
-                  "sha256":  "3fcaaf889bcc02d7afc18704b19c65e02d36cf34e5b7143390a8f730328b82b1",
-                  "size":  303738
+                  "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.13-update-from-0.1.x.zip",
+                  "name":  "KR-Backup-v0.1.13-update-from-0.1.x.zip",
+                  "sha256":  "3ea14367c2df4a2b272d9b9f7ba73e56e0c7069aad55a4f9fe20c93060313705",
+                  "size":  304215
               },
-    "version":  "0.1.12",
-    "notes":  "Backup status log now writes every file entry directly, removes coalescing, keeps UI progress ordered, and rotates app.log at 20 MB by archiving the old file."
+    "version":  "0.1.13",
+    "notes":  "Live status line below the progress bar is hidden by default and can be enabled in Settings with the Livestatus einblenden checkbox."
 }
