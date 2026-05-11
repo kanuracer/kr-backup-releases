@@ -1,17 +1,17 @@
 {
-  "publishedAt": "2026-05-11T10:58:31.1393365Z",
+  "publishedAt": "2026-05-11T11:14:16.7501856Z",
   "portable": {
-    "url": "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.4-win-x64-portable.zip",
-    "name": "KR-Backup-v0.1.4-win-x64-portable.zip",
-    "sha256": "60274fd0338d79bf79d0438f82290fb003442a4e800eb25b446adc11d991ac82",
-    "size": 70281494
+    "url": "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.5-win-x64-portable.zip",
+    "name": "KR-Backup-v0.1.5-win-x64-portable.zip",
+    "sha256": "f83c934b93fdb6b2ce8a657238200ecbd4b52415976bc623417a29c6b77efec8",
+    "size": 70281556
   },
   "asset": {
-    "url": "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.4-update-from-0.1.x.zip",
-    "name": "KR-Backup-v0.1.4-update-from-0.1.x.zip",
-    "sha256": "bd0f23980177f96e98db58a6c685ce554434244d9ddf656edea6510f93d80577",
-    "size": 300243
+    "url": "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.5-update-from-0.1.x.zip",
+    "name": "KR-Backup-v0.1.5-update-from-0.1.x.zip",
+    "sha256": "65d9139ccb5a101b16605dcf1c48eb92425603cf68837f80b12bab358ef1e6db",
+    "size": 300305
   },
-  "version": "0.1.4",
-  "notes": "Backup UX polish: after a successful run, the Backup tab now shows a green success box below the progress bar with copied/unchanged/deleted/error counts while keeping the existing progress and status display unchanged."
+  "version": "0.1.5",
+  "notes": "Update UI polish: Changelog and Update-Log now sit side by side; tab content uses vertical scrolling instead of clipping when space is tight; horizontal scrollbars stay disabled with wrapped text."
 }
