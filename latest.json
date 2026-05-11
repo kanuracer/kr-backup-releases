@@ -1,17 +1,17 @@
 {
-    "publishedAt":  "2026-05-11T18:33:17.4695906Z",
+    "publishedAt":  "2026-05-11T18:48:03.7976906Z",
     "portable":  {
-                     "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.9-win-x64-portable.zip",
-                     "name":  "KR-Backup-v0.1.9-win-x64-portable.zip",
-                     "sha256":  "6e28f86b107825d126fe661a9d299dc7d319a4d54619bfbdbaddf4aae69ff4d0",
-                     "size":  70285677
+                     "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.10-win-x64-portable.zip",
+                     "name":  "KR-Backup-v0.1.10-win-x64-portable.zip",
+                     "sha256":  "808f6b26c2f01d7f5f3805c58e2e33cd36120644fca5821894c257007c17946e",
+                     "size":  70285851
                  },
     "asset":  {
-                  "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.9-update-from-0.1.x.zip",
-                  "name":  "KR-Backup-v0.1.9-update-from-0.1.x.zip",
-                  "sha256":  "c35b1e1fa1b9052f945791166879803f27de7febc5d8c72770d42cd919e74feb",
-                  "size":  303723
+                  "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.10-update-from-0.1.x.zip",
+                  "name":  "KR-Backup-v0.1.10-update-from-0.1.x.zip",
+                  "sha256":  "a8ee50725dab7a28e6752f793117ae72284af78bef6e47eb95ece6698bd54eb3",
+                  "size":  303823
               },
-    "version":  "0.1.9",
-    "notes":  "Initialization progress now shows clean percentage-only feedback without x/100 counters. The update notice below the version badge is clickable and opens the Updates tab."
+    "version":  "0.1.10",
+    "notes":  "Initialization progress shows clean percentage-only feedback without x/100 counters. The whole version/update header is clickable when an update is available and opens the Updates tab."
 }
