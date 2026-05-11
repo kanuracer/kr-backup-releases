@@ -1,17 +1,17 @@
 {
-    "publishedAt":  "2026-05-11T21:27:02.2030435Z",
+    "publishedAt":  "2026-05-11T21:49:33.0811366Z",
     "portable":  {
-                     "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.13-win-x64-portable.zip",
-                     "name":  "KR-Backup-v0.1.13-win-x64-portable.zip",
-                     "sha256":  "79db0197509f443bee2a613148599a8f6671c29741260225da7f38f78de5779c",
-                     "size":  70286332
+                     "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.14-win-x64-portable.zip",
+                     "name":  "KR-Backup-v0.1.14-win-x64-portable.zip",
+                     "sha256":  "cfbf6f9efae6b46213477f1ea7c1732424302a16c9e299426f57243a92f554da",
+                     "size":  70286364
                  },
     "asset":  {
-                  "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.13-update-from-0.1.x.zip",
-                  "name":  "KR-Backup-v0.1.13-update-from-0.1.x.zip",
-                  "sha256":  "3ea14367c2df4a2b272d9b9f7ba73e56e0c7069aad55a4f9fe20c93060313705",
-                  "size":  304215
+                  "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.14-update-from-0.1.x.zip",
+                  "name":  "KR-Backup-v0.1.14-update-from-0.1.x.zip",
+                  "sha256":  "a28a34dacf52705985db2e0142eef25d373f31341962249a2e90ad75a343e1dc",
+                  "size":  304246
               },
-    "version":  "0.1.13",
-    "notes":  "Live status line below the progress bar is hidden by default and can be enabled in Settings with the Livestatus einblenden checkbox."
+    "version":  "0.1.14",
+    "notes":  "Livestatus checkbox now controls the Backup tab Status panel. The progress detail line stays visible; the Status log panel is hidden by default."
 }

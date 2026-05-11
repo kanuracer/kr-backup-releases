@@ -1,17 +1,21 @@
 # KR Backup Releases
 
-Current release: v0.1.13
+Current release: v0.1.14
 
-## Assets
+## Downloads
 
-- KR-Backup-v0.1.13-win-x64-portable.zip
-  - sha256: 79db0197509f443bee2a613148599a8f6671c29741260225da7f38f78de5779c
-- KR-Backup-v0.1.13-update-from-0.1.x.zip
-  - sha256: 3ea14367c2df4a2b272d9b9f7ba73e56e0c7069aad55a4f9fe20c93060313705
+- KR-Backup-v0.1.14-win-x64-portable.zip
+  - sha256: cfbf6f9efae6b46213477f1ea7c1732424302a16c9e299426f57243a92f554da
+- KR-Backup-v0.1.14-update-from-0.1.x.zip
+  - sha256: a28a34dacf52705985db2e0142eef25d373f31341962249a2e90ad75a343e1dc
 
-## Changes v0.1.13
+## Changes v0.1.14
 
-- Live status line under the progress bar is hidden by default.
-- New Settings checkbox: Livestatus einblenden.
-- Setting persists in data/settings.json as liveStatusVisible.
-- Progress bar, status log and full logs stay unchanged.
+- Corrected Livestatus behavior from v0.1.13.
+- Progress detail line below the progress bar stays visible.
+- Large Backup-tab Status panel is hidden by default.
+- Settings checkbox `Livestatus einblenden` shows/hides that Status panel.
+
+## Update feed
+
+- `latest.json` points to v0.1.14.
