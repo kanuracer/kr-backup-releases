@@ -24,13 +24,6 @@ For `0.1.x`, the feed points at a small compatibility patch ZIP so the old updat
 
 Download latest: [KR-Backup-v0.1.6-win-x64-portable.zip](https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.6-win-x64-portable.zip)
 
-| Datei | Zweck | Größe | SHA256 |
-|---|---|---:|---|
-| [`KR-Backup-v0.1.6-win-x64-portable.zip`](https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.6-win-x64-portable.zip) | Vollständige portable App für Neuinstallation/manuellen Download | 67.0 MB | `c07ce30abb657b6891d5cdcfc2df726cc6b2163cf0718aa6e71162437e793d33` |
-| [`KR-Backup-v0.1.6-update-from-0.1.x.zip`](https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.6-update-from-0.1.x.zip) | Kleines Update-Paket für den eingebauten Updater | 0.3 MB | `d68308c691582827dc7458ffcdf87557db9093409d7a5a4235a3905961566f52` |
-
-> Für normale Nutzer ist die **Full portable ZIP** richtig. Das kleine Update-Paket ist für die automatische Aktualisierung innerhalb der App.
-
 --------------------------
 
 # Anleitung
