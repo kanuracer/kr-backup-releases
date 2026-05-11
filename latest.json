@@ -1,17 +1,17 @@
 {
-    "publishedAt":  "2026-05-11T18:08:31.5738639Z",
+    "publishedAt":  "2026-05-11T18:33:17.4695906Z",
     "portable":  {
-                     "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.8-win-x64-portable.zip",
-                     "name":  "KR-Backup-v0.1.8-win-x64-portable.zip",
-                     "sha256":  "8ea5dda2989df9729160610153b48f67ea4701121b93022ca71829c2f4fbe640",
-                     "size":  70285455
+                     "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.9-win-x64-portable.zip",
+                     "name":  "KR-Backup-v0.1.9-win-x64-portable.zip",
+                     "sha256":  "6e28f86b107825d126fe661a9d299dc7d319a4d54619bfbdbaddf4aae69ff4d0",
+                     "size":  70285677
                  },
     "asset":  {
-                  "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.8-update-from-0.1.x.zip",
-                  "name":  "KR-Backup-v0.1.8-update-from-0.1.x.zip",
-                  "sha256":  "e43e78ce98b042685f273edba086b13691181a2d081969196da3c83702f6d493",
-                  "size":  303540
+                  "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.9-update-from-0.1.x.zip",
+                  "name":  "KR-Backup-v0.1.9-update-from-0.1.x.zip",
+                  "sha256":  "c35b1e1fa1b9052f945791166879803f27de7febc5d8c72770d42cd919e74feb",
+                  "size":  303723
               },
-    "version":  "0.1.8",
-    "notes":  "Initialization progress now shows visible staged progress while scanning/checking space. Backup preflight now skips files that disappear during scan/copy planning instead of aborting, making broad sources like C:\\ robust against volatile temp files."
+    "version":  "0.1.9",
+    "notes":  "Initialization progress now shows clean percentage-only feedback without x/100 counters. The update notice below the version badge is clickable and opens the Updates tab."
 }
