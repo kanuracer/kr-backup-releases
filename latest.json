@@ -1,11 +1,17 @@
 {
-  "publishedAt": "2026-05-11T09:38:47.2324204Z",
-  "asset": {
-    "url": "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.1-win-x64-portable.zip",
-    "name": "KR-Backup-v0.1.1-win-x64-portable.zip",
-    "sha256": "861f4b5ccb3e2292b0b2d064293cb44c8d7605f200131a8345da71413cdb78ee",
-    "size": 70279002
-  },
-  "version": "0.1.1",
-  "notes": "Hotfix: transfer progress starts immediately without pre-copy hashing; per-file bytes/speed stay live; display theme persists across restarts."
+    "publishedAt":  "2026-05-11T10:08:47.4922669Z",
+    "portable":  {
+                     "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.2-win-x64-portable.zip",
+                     "name":  "KR-Backup-v0.1.2-win-x64-portable.zip",
+                     "sha256":  "38e92a74fe86569ee9a540d3f51c60ac65c106833fa883eb92f7879423f54deb",
+                     "size":  70279781
+                 },
+    "asset":  {
+                  "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.2-update-from-0.1.x.zip",
+                  "name":  "KR-Backup-v0.1.2-update-from-0.1.x.zip",
+                  "sha256":  "17d6b1e5f26cf8ba32d51816724cfe5962380e7313aba136308329d716422707",
+                  "size":  298881
+              },
+    "version":  "0.1.2",
+    "notes":  "Hotfix: update now stages the updater outside the install directory, updates real binaries instead of only metadata, and restarts KR Backup automatically. Feed asset is a compatibility patch for 0.1.x; full portable ZIP is published alongside it."
 }
