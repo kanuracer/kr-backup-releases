@@ -13,5 +13,5 @@
     "size": 300703
   },
   "version": "0.1.6",
-  "notes": "UI polish: dark theme scrollbars now use themed dark track/thumb colors instead of white system defaults. Added AGENTS.md documenting the planning, coding, testing, QA, documentation, and release workflow for reuse in other projects."
+  "notes": "UI polish: dark theme scrollbars now use themed dark track/thumb colors instead of white system defaults."
 }
