@@ -1,17 +1,17 @@
 {
-    "publishedAt":  "2026-05-11T10:08:47.4922669Z",
-    "portable":  {
-                     "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.2-win-x64-portable.zip",
-                     "name":  "KR-Backup-v0.1.2-win-x64-portable.zip",
-                     "sha256":  "38e92a74fe86569ee9a540d3f51c60ac65c106833fa883eb92f7879423f54deb",
-                     "size":  70279781
-                 },
-    "asset":  {
-                  "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.2-update-from-0.1.x.zip",
-                  "name":  "KR-Backup-v0.1.2-update-from-0.1.x.zip",
-                  "sha256":  "17d6b1e5f26cf8ba32d51816724cfe5962380e7313aba136308329d716422707",
-                  "size":  298881
-              },
-    "version":  "0.1.2",
-    "notes":  "Hotfix: update now stages the updater outside the install directory, updates real binaries instead of only metadata, and restarts KR Backup automatically. Feed asset is a compatibility patch for 0.1.x; full portable ZIP is published alongside it."
+  "publishedAt": "2026-05-11T10:38:17.2124879Z",
+  "portable": {
+    "url": "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.3-win-x64-portable.zip",
+    "name": "KR-Backup-v0.1.3-win-x64-portable.zip",
+    "sha256": "d90d7eba835663be49204aebc77cacb4f412c0ffc8612eead2a38d8632f4add1",
+    "size": 70281037
+  },
+  "asset": {
+    "url": "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.3-update-from-0.1.x.zip",
+    "name": "KR-Backup-v0.1.3-update-from-0.1.x.zip",
+    "sha256": "515b098bda3900066c13fe979f53d61b930177f458971ebef870b528f28d11a2",
+    "size": 299904
+  },
+  "version": "0.1.3",
+  "notes": "UI polish: Updates tab now shows latest.json notes as changelog; Logs tab persists app logs under data/logs/app.log and reloads them on start; backup browse buttons are compact folder icons; button hover colors keep readable contrast in light and dark themes."
 }
