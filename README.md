@@ -24,13 +24,30 @@ For `0.1.x`, the feed points at a small compatibility patch ZIP so the old updat
 
 Download latest: [KR-Backup-v0.1.6-win-x64-portable.zip](https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.6-win-x64-portable.zip)
 
+GitHub Release: [KR Backup v0.1.6](https://github.com/kanuracer/kr-backup-releases/releases/tag/v0.1.6)
+
 --------------------------
 
 # Anleitung
 
+## Inhaltsübersicht
+
+- [Was ist KR Backup?](#1-was-ist-kr-backup)
+- [Download](#2-download)
+- [ZIP entpacken](#3-zip-entpacken)
+- [Programm starten](#4-programm-starten)
+- [Backup einrichten](#5-backup-einrichten)
+- [Backup ausführen](#6-backup-ausführen)
+- [1:1-Spiegelung verstehen](#8-was-bedeutet-11-spiegelung)
+- [Logs verwenden](#9-logs-verwenden)
+- [Updates prüfen und installieren](#10-updates-prüfen-und-installieren)
+- [Fehlerbehebung](#15-fehlerbehebung)
+
 ## 1. Was ist KR Backup?
 
 KR Backup ist eine portable Windows-Anwendung für eine einfache **1:1-Spiegelung** von einem Quellordner in ein Backup-Ziel.
+
+> **Wichtig:** 1:1-Spiegelung bedeutet: Wenn Dateien in der Quelle fehlen oder gelöscht wurden, werden sie auch im Backup-Ziel gelöscht. Nutze KR Backup für eine aktuelle Spiegel-Kopie, nicht als historisches Archiv.
 
 Kurz gesagt:
 
@@ -45,7 +62,7 @@ Kurz gesagt:
 
 ## 2. Download
 
-1. Oben auf **Schnell-Download** klicken.
+1. Oben auf **Download latest** klicken.
 2. Die Datei `KR-Backup-v0.1.6-win-x64-portable.zip` speichern.
 3. Warten, bis der Download abgeschlossen ist.
 
@@ -313,10 +330,10 @@ https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/latest.json
 
 ### Warum gibt es zwei ZIPs?
 
-- Full portable ZIP: komplette App, ideal für Download/Neuinstallation.
+- Full portable ZIP: komplette App für Download/Neuinstallation.
 - Update ZIP: kleines Paket für den eingebauten Updater.
 
-Für `0.1.x` zeigt der Feed bewusst auf das kleine Update-ZIP, damit alte Updater keine gesperrten Runtime-Dateien ersetzen müssen. Die vollständige portable ZIP wird zusätzlich veröffentlicht.
+Als Nutzer brauchst du normalerweise nur die Full portable ZIP oder den Update-Button in der App.
 
 ### Hash-Prüfung der ZIP
 
