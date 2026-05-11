@@ -1,17 +1,17 @@
 {
-    "publishedAt":  "2026-05-11T20:28:54.2244802Z",
+    "publishedAt":  "2026-05-11T21:01:40.5333391Z",
     "portable":  {
-                     "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.11-win-x64-portable.zip",
-                     "name":  "KR-Backup-v0.1.11-win-x64-portable.zip",
-                     "sha256":  "260240546bfdbb2709bded12d66ea4d6117476c5c74f2d292e7be381319cb995",
-                     "size":  70285834
+                     "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.12-win-x64-portable.zip",
+                     "name":  "KR-Backup-v0.1.12-win-x64-portable.zip",
+                     "sha256":  "67caf62bb471e583de5b15060c741bfff6107c85f5beeda1b4c5cf58990dccf4",
+                     "size":  70285771
                  },
     "asset":  {
-                  "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.11-update-from-0.1.x.zip",
-                  "name":  "KR-Backup-v0.1.11-update-from-0.1.x.zip",
-                  "sha256":  "f1d29550540a4c7a7a498317ef73d4204179d164f9c98be021714fccae580345",
-                  "size":  303819
+                  "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.12-update-from-0.1.x.zip",
+                  "name":  "KR-Backup-v0.1.12-update-from-0.1.x.zip",
+                  "sha256":  "3fcaaf889bcc02d7afc18704b19c65e02d36cf34e5b7143390a8f730328b82b1",
+                  "size":  303738
               },
-    "version":  "0.1.11",
-    "notes":  "Backup status log no longer emits misleading repeated 100-file progress messages. File progress remains visible in the progress bar/detail line, while the log stays clean until summary messages."
+    "version":  "0.1.12",
+    "notes":  "Backup status log now writes every file entry directly, removes coalescing, keeps UI progress ordered, and rotates app.log at 20 MB by archiving the old file."
 }

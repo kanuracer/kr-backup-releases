@@ -4,11 +4,11 @@ Public update feed for KR Backup portable Windows builds.
 
 ## Current release
 
-- Version: `0.1.11`
-- Update asset: `KR-Backup-v0.1.11-update-from-0.1.x.zip`
-- Update SHA256: `f1d29550540a4c7a7a498317ef73d4204179d164f9c98be021714fccae580345`
-- Full portable ZIP: `KR-Backup-v0.1.11-win-x64-portable.zip`
-- Full portable SHA256: `260240546bfdbb2709bded12d66ea4d6117476c5c74f2d292e7be381319cb995`
+- Version: `0.1.12`
+- Update asset: `KR-Backup-v0.1.12-update-from-0.1.x.zip`
+- Update SHA256: `3fcaaf889bcc02d7afc18704b19c65e02d36cf34e5b7143390a8f730328b82b1`
+- Full portable ZIP: `KR-Backup-v0.1.12-win-x64-portable.zip`
+- Full portable SHA256: `67caf62bb471e583de5b15060c741bfff6107c85f5beeda1b4c5cf58990dccf4`
 
 ## Update feed
 
@@ -22,9 +22,9 @@ For `0.1.x`, the feed points at a small compatibility patch ZIP so the old updat
 
 ------------------------------------------------------------
 
-Download latest: [KR-Backup-v0.1.11-win-x64-portable.zip](https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.11-win-x64-portable.zip)
+Download latest: [KR-Backup-v0.1.12-win-x64-portable.zip](https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.12-win-x64-portable.zip)
 
-GitHub Release: [KR Backup v0.1.11](https://github.com/kanuracer/kr-backup-releases/releases/tag/v0.1.11)
+GitHub Release: [KR Backup v0.1.12](https://github.com/kanuracer/kr-backup-releases/releases/tag/v0.1.12)
 
 --------------------------
 
@@ -44,11 +44,13 @@ GitHub Release: [KR Backup v0.1.11](https://github.com/kanuracer/kr-backup-relea
 - [Fehlerbehebung](#15-fehlerbehebung)
 
 
-## Neu in 0.1.11
+## Neu in 0.1.12
 
-- Das Statuslog zeigt keine irreführenden Sammelzeilen `Backup läuft: 100 Dateien verarbeitet` mehr.
-- Datei-Fortschritt bleibt in Progressbar und Detailzeile sichtbar.
-- Das Log bleibt sauber bei Initialisierung, Abschluss, Fehlern und Warnungen.
+- Das Statuslog schreibt wieder jede Datei einzeln: `Backup: <Pfad>`.
+- Keine Datei-Zusammenfassung / kein `Backup läuft: 100 Dateien verarbeitet` mehr.
+- UI-Status bleibt geordnet; Erfolg erscheint erst nach abgeschlossenem Backup.
+- `app.log` rotiert bei 20 MB und archiviert alte Logs als `app-yyyyMMdd-HHmmss.log`.
+
 
 
 
@@ -74,18 +76,18 @@ Kurz gesagt:
 ## 2. Download
 
 1. Oben auf **Download latest** klicken.
-2. Die Datei `KR-Backup-v0.1.11-win-x64-portable.zip` speichern.
+2. Die Datei `KR-Backup-v0.1.12-win-x64-portable.zip` speichern.
 3. Warten, bis der Download abgeschlossen ist.
 
 Direktlink:
 
 ```text
-https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.11-win-x64-portable.zip
+https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.12-win-x64-portable.zip
 ```
 
 ## 3. ZIP entpacken
 
-1. Im Download-Ordner die Datei `KR-Backup-v0.1.11-win-x64-portable.zip` suchen.
+1. Im Download-Ordner die Datei `KR-Backup-v0.1.12-win-x64-portable.zip` suchen.
 2. Rechtsklick auf die ZIP-Datei.
 3. **Alle extrahieren…** auswählen.
 4. Einen Zielordner wählen, z. B. `C:\Tools\KR-Backup` oder ein anderes Laufwerk.
@@ -106,7 +108,7 @@ Wichtig:
 Optional zur Hash-Prüfung der ZIP:
 
 ```powershell
-Get-FileHash .\KR-Backup-v0.1.11-win-x64-portable.zip -Algorithm SHA256
+Get-FileHash .\KR-Backup-v0.1.12-win-x64-portable.zip -Algorithm SHA256
 ```
 
 Erwarteter SHA256:
@@ -349,7 +351,7 @@ Als Nutzer brauchst du normalerweise nur die Full portable ZIP oder den Update-B
 ### Hash-Prüfung der ZIP
 
 ```powershell
-Get-FileHash .\KR-Backup-v0.1.11-win-x64-portable.zip -Algorithm SHA256
+Get-FileHash .\KR-Backup-v0.1.12-win-x64-portable.zip -Algorithm SHA256
 ```
 
 Erwarteter SHA256:
