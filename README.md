@@ -4,15 +4,15 @@ Public update feed for KR Backup portable Windows builds.
 
 ## Current release
 
-- Version: `0.1.5`
-- Update asset: `KR-Backup-v0.1.5-update-from-0.1.x.zip`
-- Update SHA256: `65d9139ccb5a101b16605dcf1c48eb92425603cf68837f80b12bab358ef1e6db`
-- Full portable ZIP: `KR-Backup-v0.1.5-win-x64-portable.zip`
-- Full portable SHA256: `f83c934b93fdb6b2ce8a657238200ecbd4b52415976bc623417a29c6b77efec8`
+- Version: `0.1.6`
+- Update asset: `KR-Backup-v0.1.6-update-from-0.1.x.zip`
+- Update SHA256: `d68308c691582827dc7458ffcdf87557db9093409d7a5a4235a3905961566f52`
+- Full portable ZIP: `KR-Backup-v0.1.6-win-x64-portable.zip`
+- Full portable SHA256: `c07ce30abb657b6891d5cdcfc2df726cc6b2163cf0718aa6e71162437e793d33`
 
 ## Notes
 
-Update UI polish: Changelog and Update-Log now sit side by side; tab content uses vertical scrolling instead of clipping when space is tight; horizontal scrollbars stay disabled with wrapped text.
+UI polish: dark theme scrollbars now use themed dark track/thumb colors instead of white system defaults. Added AGENTS.md documenting the planning, coding, testing, QA, documentation, and release workflow for reuse in other projects.
 
 ## Update feed
 

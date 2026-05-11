@@ -1,17 +1,17 @@
 {
-  "publishedAt": "2026-05-11T11:14:16.7501856Z",
+  "publishedAt": "2026-05-11T11:34:07.2874137Z",
   "portable": {
-    "url": "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.5-win-x64-portable.zip",
-    "name": "KR-Backup-v0.1.5-win-x64-portable.zip",
-    "sha256": "f83c934b93fdb6b2ce8a657238200ecbd4b52415976bc623417a29c6b77efec8",
-    "size": 70281556
+    "url": "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.6-win-x64-portable.zip",
+    "name": "KR-Backup-v0.1.6-win-x64-portable.zip",
+    "sha256": "c07ce30abb657b6891d5cdcfc2df726cc6b2163cf0718aa6e71162437e793d33",
+    "size": 70281969
   },
   "asset": {
-    "url": "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.5-update-from-0.1.x.zip",
-    "name": "KR-Backup-v0.1.5-update-from-0.1.x.zip",
-    "sha256": "65d9139ccb5a101b16605dcf1c48eb92425603cf68837f80b12bab358ef1e6db",
-    "size": 300305
+    "url": "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.6-update-from-0.1.x.zip",
+    "name": "KR-Backup-v0.1.6-update-from-0.1.x.zip",
+    "sha256": "d68308c691582827dc7458ffcdf87557db9093409d7a5a4235a3905961566f52",
+    "size": 300703
   },
-  "version": "0.1.5",
-  "notes": "Update UI polish: Changelog and Update-Log now sit side by side; tab content uses vertical scrolling instead of clipping when space is tight; horizontal scrollbars stay disabled with wrapped text."
+  "version": "0.1.6",
+  "notes": "UI polish: dark theme scrollbars now use themed dark track/thumb colors instead of white system defaults. Added AGENTS.md documenting the planning, coding, testing, QA, documentation, and release workflow for reuse in other projects."
 }
