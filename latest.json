@@ -1,17 +1,17 @@
 {
-  "publishedAt": "2026-05-11T10:38:17.2124879Z",
+  "publishedAt": "2026-05-11T10:58:31.1393365Z",
   "portable": {
-    "url": "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.3-win-x64-portable.zip",
-    "name": "KR-Backup-v0.1.3-win-x64-portable.zip",
-    "sha256": "d90d7eba835663be49204aebc77cacb4f412c0ffc8612eead2a38d8632f4add1",
-    "size": 70281037
+    "url": "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.4-win-x64-portable.zip",
+    "name": "KR-Backup-v0.1.4-win-x64-portable.zip",
+    "sha256": "60274fd0338d79bf79d0438f82290fb003442a4e800eb25b446adc11d991ac82",
+    "size": 70281494
   },
   "asset": {
-    "url": "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.3-update-from-0.1.x.zip",
-    "name": "KR-Backup-v0.1.3-update-from-0.1.x.zip",
-    "sha256": "515b098bda3900066c13fe979f53d61b930177f458971ebef870b528f28d11a2",
-    "size": 299904
+    "url": "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.4-update-from-0.1.x.zip",
+    "name": "KR-Backup-v0.1.4-update-from-0.1.x.zip",
+    "sha256": "bd0f23980177f96e98db58a6c685ce554434244d9ddf656edea6510f93d80577",
+    "size": 300243
   },
-  "version": "0.1.3",
-  "notes": "UI polish: Updates tab now shows latest.json notes as changelog; Logs tab persists app logs under data/logs/app.log and reloads them on start; backup browse buttons are compact folder icons; button hover colors keep readable contrast in light and dark themes."
+  "version": "0.1.4",
+  "notes": "Backup UX polish: after a successful run, the Backup tab now shows a green success box below the progress bar with copied/unchanged/deleted/error counts while keeping the existing progress and status display unchanged."
 }
