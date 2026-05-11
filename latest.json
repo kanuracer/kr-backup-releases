@@ -1,0 +1,11 @@
+{
+    "publishedAt":  "2026-05-11T09:03:16.0279184Z",
+    "asset":  {
+                  "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.0-win-x64-portable.zip",
+                  "name":  "KR-Backup-v0.1.0-win-x64-portable.zip",
+                  "sha256":  "d1b4d25e05617e908a54f029914f914c36a74ea34b1b58bcb27f89b23b884a70",
+                  "size":  70278686
+              },
+    "version":  "0.1.0",
+    "notes":  "Initial public portable release: 1:1 mirror backup, real progress bar, transfer speed, per-file byte progress, and updater support."
+}
