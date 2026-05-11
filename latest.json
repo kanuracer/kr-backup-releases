@@ -1,17 +1,17 @@
 {
-  "publishedAt": "2026-05-11T11:34:07.2874137Z",
-  "portable": {
-    "url": "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.6-win-x64-portable.zip",
-    "name": "KR-Backup-v0.1.6-win-x64-portable.zip",
-    "sha256": "c07ce30abb657b6891d5cdcfc2df726cc6b2163cf0718aa6e71162437e793d33",
-    "size": 70281969
-  },
-  "asset": {
-    "url": "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.6-update-from-0.1.x.zip",
-    "name": "KR-Backup-v0.1.6-update-from-0.1.x.zip",
-    "sha256": "d68308c691582827dc7458ffcdf87557db9093409d7a5a4235a3905961566f52",
-    "size": 300703
-  },
-  "version": "0.1.6",
-  "notes": "UI polish: dark theme scrollbars now use themed dark track/thumb colors instead of white system defaults."
+    "publishedAt":  "2026-05-11T15:59:42.1502895Z",
+    "portable":  {
+                     "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.7-win-x64-portable.zip",
+                     "name":  "KR-Backup-v0.1.7-win-x64-portable.zip",
+                     "sha256":  "7b6e2c6c895d8d684635db87461336237e789f60ba91d1ecbe28952204989daa",
+                     "size":  70283825
+                 },
+    "asset":  {
+                  "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.7-update-from-0.1.x.zip",
+                  "name":  "KR-Backup-v0.1.7-update-from-0.1.x.zip",
+                  "sha256":  "4d1338c86ff11df74d345df6eb724d677ba8e3040e7b30d2a4bb1ea59bb64362",
+                  "size":  302224
+              },
+    "version":  "0.1.7",
+    "notes":  "Backup start now runs an initialization/preflight phase with progress feedback, checks required copy bytes plus 100 MB reserve against target free space, and shows a red error banner when the target is too small. Logs window sizing improved; update availability is shown below the version badge."
 }

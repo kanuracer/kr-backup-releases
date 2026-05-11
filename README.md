@@ -4,11 +4,11 @@ Public update feed for KR Backup portable Windows builds.
 
 ## Current release
 
-- Version: `0.1.6`
-- Update asset: `KR-Backup-v0.1.6-update-from-0.1.x.zip`
-- Update SHA256: `d68308c691582827dc7458ffcdf87557db9093409d7a5a4235a3905961566f52`
-- Full portable ZIP: `KR-Backup-v0.1.6-win-x64-portable.zip`
-- Full portable SHA256: `c07ce30abb657b6891d5cdcfc2df726cc6b2163cf0718aa6e71162437e793d33`
+- Version: `0.1.7`
+- Update asset: `KR-Backup-v0.1.7-update-from-0.1.x.zip`
+- Update SHA256: `4d1338c86ff11df74d345df6eb724d677ba8e3040e7b30d2a4bb1ea59bb64362`
+- Full portable ZIP: `KR-Backup-v0.1.7-win-x64-portable.zip`
+- Full portable SHA256: `7b6e2c6c895d8d684635db87461336237e789f60ba91d1ecbe28952204989daa`
 
 ## Update feed
 
@@ -22,9 +22,9 @@ For `0.1.x`, the feed points at a small compatibility patch ZIP so the old updat
 
 ------------------------------------------------------------
 
-Download latest: [KR-Backup-v0.1.6-win-x64-portable.zip](https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.6-win-x64-portable.zip)
+Download latest: [KR-Backup-v0.1.7-win-x64-portable.zip](https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.7-win-x64-portable.zip)
 
-GitHub Release: [KR Backup v0.1.6](https://github.com/kanuracer/kr-backup-releases/releases/tag/v0.1.6)
+GitHub Release: [KR Backup v0.1.7](https://github.com/kanuracer/kr-backup-releases/releases/tag/v0.1.7)
 
 --------------------------
 
@@ -42,6 +42,15 @@ GitHub Release: [KR Backup v0.1.6](https://github.com/kanuracer/kr-backup-releas
 - [Logs verwenden](#9-logs-verwenden)
 - [Updates prüfen und installieren](#10-updates-prüfen-und-installieren)
 - [Fehlerbehebung](#15-fehlerbehebung)
+
+
+## Neu in 0.1.7
+
+- Backup-Start prüft zuerst den Speicherbedarf und den freien Speicher im Ziel.
+- Es werden zusätzlich **100 MB Reserve** eingeplant.
+- Wenn das Ziel zu klein ist, erscheint ein roter Fehlerbanner und es wird nichts kopiert.
+- Das Logfenster ist größer, damit es unten nicht abgeschnitten wird.
+- Verfügbare Updates werden oben rechts unter der Versionsnummer angezeigt.
 
 ## 1. Was ist KR Backup?
 
@@ -63,18 +72,18 @@ Kurz gesagt:
 ## 2. Download
 
 1. Oben auf **Download latest** klicken.
-2. Die Datei `KR-Backup-v0.1.6-win-x64-portable.zip` speichern.
+2. Die Datei `KR-Backup-v0.1.7-win-x64-portable.zip` speichern.
 3. Warten, bis der Download abgeschlossen ist.
 
 Direktlink:
 
 ```text
-https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.6-win-x64-portable.zip
+https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.7-win-x64-portable.zip
 ```
 
 ## 3. ZIP entpacken
 
-1. Im Download-Ordner die Datei `KR-Backup-v0.1.6-win-x64-portable.zip` suchen.
+1. Im Download-Ordner die Datei `KR-Backup-v0.1.7-win-x64-portable.zip` suchen.
 2. Rechtsklick auf die ZIP-Datei.
 3. **Alle extrahieren…** auswählen.
 4. Einen Zielordner wählen, z. B. `C:\Tools\KR-Backup` oder ein anderes Laufwerk.
@@ -95,13 +104,13 @@ Wichtig:
 Optional zur Hash-Prüfung der ZIP:
 
 ```powershell
-Get-FileHash .\KR-Backup-v0.1.6-win-x64-portable.zip -Algorithm SHA256
+Get-FileHash .\KR-Backup-v0.1.7-win-x64-portable.zip -Algorithm SHA256
 ```
 
 Erwarteter SHA256:
 
 ```text
-c07ce30abb657b6891d5cdcfc2df726cc6b2163cf0718aa6e71162437e793d33
+7b6e2c6c895d8d684635db87461336237e789f60ba91d1ecbe28952204989daa
 ```
 
 ## 5. Backup einrichten
@@ -338,13 +347,13 @@ Als Nutzer brauchst du normalerweise nur die Full portable ZIP oder den Update-B
 ### Hash-Prüfung der ZIP
 
 ```powershell
-Get-FileHash .\KR-Backup-v0.1.6-win-x64-portable.zip -Algorithm SHA256
+Get-FileHash .\KR-Backup-v0.1.7-win-x64-portable.zip -Algorithm SHA256
 ```
 
 Erwarteter SHA256:
 
 ```text
-c07ce30abb657b6891d5cdcfc2df726cc6b2163cf0718aa6e71162437e793d33
+7b6e2c6c895d8d684635db87461336237e789f60ba91d1ecbe28952204989daa
 ```
 
 ## 17. Kurzfassung
