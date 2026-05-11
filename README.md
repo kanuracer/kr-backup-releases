@@ -4,10 +4,10 @@ Public update feed for KR Backup portable Windows builds.
 
 ## Current release
 
-- Version: `0.1.0`
-- Package: `KR-Backup-v0.1.0-win-x64-portable.zip`
-- SHA256: `d1b4d25e05617e908a54f029914f914c36a74ea34b1b58bcb27f89b23b884a70`
-- Size: `70,278,686` bytes
+- Version: `0.1.1`
+- Package: `KR-Backup-v0.1.1-win-x64-portable.zip`
+- SHA256: `861f4b5ccb3e2292b0b2d064293cb44c8d7605f200131a8345da71413cdb78ee`
+- Size: `70,279,002` bytes
 
 ## Update feed
 
