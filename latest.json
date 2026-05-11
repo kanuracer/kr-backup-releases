@@ -1,17 +1,17 @@
 {
-    "publishedAt":  "2026-05-11T18:48:03.7976906Z",
+    "publishedAt":  "2026-05-11T20:28:54.2244802Z",
     "portable":  {
-                     "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.10-win-x64-portable.zip",
-                     "name":  "KR-Backup-v0.1.10-win-x64-portable.zip",
-                     "sha256":  "808f6b26c2f01d7f5f3805c58e2e33cd36120644fca5821894c257007c17946e",
-                     "size":  70285851
+                     "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.11-win-x64-portable.zip",
+                     "name":  "KR-Backup-v0.1.11-win-x64-portable.zip",
+                     "sha256":  "260240546bfdbb2709bded12d66ea4d6117476c5c74f2d292e7be381319cb995",
+                     "size":  70285834
                  },
     "asset":  {
-                  "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.10-update-from-0.1.x.zip",
-                  "name":  "KR-Backup-v0.1.10-update-from-0.1.x.zip",
-                  "sha256":  "a8ee50725dab7a28e6752f793117ae72284af78bef6e47eb95ece6698bd54eb3",
-                  "size":  303823
+                  "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.11-update-from-0.1.x.zip",
+                  "name":  "KR-Backup-v0.1.11-update-from-0.1.x.zip",
+                  "sha256":  "f1d29550540a4c7a7a498317ef73d4204179d164f9c98be021714fccae580345",
+                  "size":  303819
               },
-    "version":  "0.1.10",
-    "notes":  "Initialization progress shows clean percentage-only feedback without x/100 counters. The whole version/update header is clickable when an update is available and opens the Updates tab."
+    "version":  "0.1.11",
+    "notes":  "Backup status log no longer emits misleading repeated 100-file progress messages. File progress remains visible in the progress bar/detail line, while the log stays clean until summary messages."
 }
