@@ -1,17 +1,17 @@
 {
-    "publishedAt":  "2026-05-11T15:59:42.1502895Z",
+    "publishedAt":  "2026-05-11T18:08:31.5738639Z",
     "portable":  {
-                     "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.7-win-x64-portable.zip",
-                     "name":  "KR-Backup-v0.1.7-win-x64-portable.zip",
-                     "sha256":  "7b6e2c6c895d8d684635db87461336237e789f60ba91d1ecbe28952204989daa",
-                     "size":  70283825
+                     "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.8-win-x64-portable.zip",
+                     "name":  "KR-Backup-v0.1.8-win-x64-portable.zip",
+                     "sha256":  "8ea5dda2989df9729160610153b48f67ea4701121b93022ca71829c2f4fbe640",
+                     "size":  70285455
                  },
     "asset":  {
-                  "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.7-update-from-0.1.x.zip",
-                  "name":  "KR-Backup-v0.1.7-update-from-0.1.x.zip",
-                  "sha256":  "4d1338c86ff11df74d345df6eb724d677ba8e3040e7b30d2a4bb1ea59bb64362",
-                  "size":  302224
+                  "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.8-update-from-0.1.x.zip",
+                  "name":  "KR-Backup-v0.1.8-update-from-0.1.x.zip",
+                  "sha256":  "e43e78ce98b042685f273edba086b13691181a2d081969196da3c83702f6d493",
+                  "size":  303540
               },
-    "version":  "0.1.7",
-    "notes":  "Backup start now runs an initialization/preflight phase with progress feedback, checks required copy bytes plus 100 MB reserve against target free space, and shows a red error banner when the target is too small. Logs window sizing improved; update availability is shown below the version badge."
+    "version":  "0.1.8",
+    "notes":  "Initialization progress now shows visible staged progress while scanning/checking space. Backup preflight now skips files that disappear during scan/copy planning instead of aborting, making broad sources like C:\\ robust against volatile temp files."
 }
