@@ -1,17 +1,17 @@
 {
-    "publishedAt":  "2026-05-11T21:49:33.0811366Z",
+    "publishedAt":  "2026-05-11T22:05:31.1477169Z",
     "portable":  {
-                     "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.14-win-x64-portable.zip",
-                     "name":  "KR-Backup-v0.1.14-win-x64-portable.zip",
-                     "sha256":  "cfbf6f9efae6b46213477f1ea7c1732424302a16c9e299426f57243a92f554da",
-                     "size":  70286364
+                     "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.15-win-x64-portable.zip",
+                     "name":  "KR-Backup-v0.1.15-win-x64-portable.zip",
+                     "sha256":  "0c67e42ea03a7bce4bd136a876bb72d793628117a6b2c22fd2293031d9b3bc51",
+                     "size":  70286446
                  },
     "asset":  {
-                  "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.14-update-from-0.1.x.zip",
-                  "name":  "KR-Backup-v0.1.14-update-from-0.1.x.zip",
-                  "sha256":  "a28a34dacf52705985db2e0142eef25d373f31341962249a2e90ad75a343e1dc",
-                  "size":  304246
+                  "url":  "https://raw.githubusercontent.com/kanuracer/kr-backup-releases/main/KR-Backup-v0.1.15-update-from-0.1.x.zip",
+                  "name":  "KR-Backup-v0.1.15-update-from-0.1.x.zip",
+                  "sha256":  "9adf22663eaf72c61b50673c99c17e37e9e475478c33920addcc1774a76b3703",
+                  "size":  304304
               },
-    "version":  "0.1.14",
-    "notes":  "Livestatus checkbox now controls the Backup tab Status panel. The progress detail line stays visible; the Status log panel is hidden by default."
+    "version":  "0.1.15",
+    "notes":  "Progress bar text now always shows transfer size and speed whenever transfer data is available, including initialization/final progress states."
 }
